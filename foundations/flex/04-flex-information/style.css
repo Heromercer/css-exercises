@@ -12,6 +12,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -29,11 +30,17 @@ img {
 
 .items {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 52px;
 }
 
 .item {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  width: 200px;
+  justify-content: center;
+}
+
+.text {
+  text-align: center;
 }
